@@ -1,5 +1,5 @@
 # Credit Risk Calculation challenge using machine learning
-Training and evaluating a model based on loan risk.
+## To lend, or not to lend - Training and evaluating a machine learning model to assess financial loan risk.
 
 <img width="1440" alt="Belly button cleaning" src="https://github.com/Tarynfo1/credit-risk-classification/blob/c1d14fe59eeafc9b9def13852ce72a15411f7be6/Resources/title_image.jpg">
 
