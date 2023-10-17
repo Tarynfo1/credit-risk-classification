@@ -6,9 +6,9 @@ Create a model to predict and identify the risk of future loan applicants:
 
 * Using a dataset containing historical lending data from a peer to peer lending services company, a model was built to evaluate and identify the risk of future borrowers.
 * The purpose is to create and evaluate the accuracy of a data model designed to predict the credit worthiness of future borrowers. 
-* The data contained information in relation to the 'loan size', 'interest rate', 'borrower income', 'debt to income ratio', 'number of accounts' of the borrower, 'total debt' and 'derogatory marks' where we are assessing 'loan status'.
+* The csv file contains information in relation to the 'loan size', 'interest rate', 'borrower income', 'debt to income ratio', 'number of accounts' of the borrower, 'total debt' and 'derogatory marks' where we are assessing 'loan status'.
 * The loan status tells us the approval status of the loan and this is the data predicated in the model.
-* Firstly the csv file was read into a dataframe, the training and test data was separated and then a logistic regression model was created with the original datausing sckit learn. The resampled training data was used to predict a logistical regression model and from this, a comprehensive analysis report showing the credit risk was created.
+* Firstly the csv file was read into a dataframe, the training and test data was separated and then a logistic regression model was created with the original datausing sckit learn and a comprehensive analysis report showing the credit risk was created.
 
 ## Results
 
