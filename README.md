@@ -10,7 +10,7 @@ Using machine learning and pandas modules to train and evaluate a model of loan 
 ***
 ## File structure
 - __Resources:__ contains lending_data.csv file and images for readme file
-- __credit_risk_classification.ipynb:__ Python code
+- __credit_risk_classification.ipynb:__ credit risk analysis code
 - __README.md:__ ReadMe file, you're already here
 - __Analysis report:__ Full analysis of csv file data and recommendations on usage of the model
 
@@ -21,22 +21,20 @@ Using machine learning and pandas modules to train and evaluate a model of loan 
 - Scikit learn
 ***
 ## Instructions
-1. The data is split into separate training and test sets.
+1. The training data set is split into separate training and test sets.
 
-2. A logistical regression model was created using the original data 
+2. A logistical regression model was created using the original data in Scikit learn. The purpose of the model is to determine if a loan would be considered high or low risk to the lender.  
     
     <img width="366" alt="bar_chart" src="https://github.com/Tarynfo1/credit-risk-classification/blob/a98de1eee9ed0a77bc50746eef75e268bb3c0eac/Resources/M21_logisticalregres.png">
 
-  4. A report was created to analysis the models predictive ability.
+  4. A report was created to analysis the models predictive ability and recommendations to the lender on the models use.
  
 ***
 ## Acknowledgements
-- https://www.w3schools.com/python/python_ml_confusion_matrix.asp assisted in the following code snippet
+- https://www.statology.org/balanced-accuracy-python-sklearn/ assisted in the following code snippet
 ```
-# Generate a confusion matrix for the model
-
-cf_test_matrix = confusion_matrix(y_test, test_predictions)
-
-cf_test_matrix
+# Print the balanced_accuracy score of the model
+logistic_acc_score = balanced_accuracy_score(y_test, test_predictions)
+print(logistic_acc_score)
 ```
 
