@@ -1,7 +1,7 @@
 # Credit Risk Calculation challenge using machine learning
 Training and evaluating a model based on loan risk.
 
-<img width="1440" alt="Belly button cleaning" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
+<img width="1440" alt="Belly button cleaning" src="https://github.com/Tarynfo1/credit-risk-classification/blob/c1d14fe59eeafc9b9def13852ce72a15411f7be6/Resources/title_image.jpg">
 
 *** 
 ## Description
@@ -25,7 +25,7 @@ Using machine learning and pandas modules to train and evaluate a model of loan 
 
 2. A logistical regression model was created using the original data 
     
-    <img width="366" alt="bar_chart" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bar_chart.png">
+    <img width="366" alt="bar_chart" src="https://github.com/Tarynfo1/credit-risk-classification/blob/a98de1eee9ed0a77bc50746eef75e268bb3c0eac/Resources/M21_logisticalregres.png">
 
   4. A report was created to analysis the models predictive ability.
  
